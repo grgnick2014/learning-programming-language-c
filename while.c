@@ -1258,56 +1258,62 @@
 //    multiplication();
 //    division();
 // }
-float add(float a, float b);
-float subtract(float a, float b);
-float multiplication(float a, float b);
-float division(float a, float b);
-float add(float a ,float b)
-{
-   float c = a + b;
-   printf("%f\n",c);
-   return c;
-}
-float subtract(float a ,float b)
-{
-   float c = a - b;
-   printf("%f\n",c);
-   return c;
-}
-float multiplication(float a ,float b)
-{
-   float c = a * b;
-   printf("%f\n",c);
-   return c;
-}
-float division(float a ,float b)
-{
-   if (b == 0)
-   {
-      printf("Cant divide with 0");
-      return 0;
-   }
-   float c = a / b;
-   printf("%f\n",c);
-   return c;
-}
+// float add(float a, float b);
+// float subtract(float a, float b);
+// float multiplication(float a, float b);
+// float division(float a, float b);
+// float add(float a ,float b)
+// {
+//    float c = a + b;
+//    printf("%f\n",c);
+//    return c;
+// }
+// float subtract(float a ,float b)
+// {
+//    float c = a - b;
+//    printf("%f\n",c);
+//    return c;
+// }
+// float multiplication(float a ,float b)
+// {
+//    float c = a * b;
+//    printf("%f\n",c);
+//    return c;
+// }
+// float division(float a ,float b)
+// {
+//    if (b == 0)
+//    {
+//       printf("Cant divide with 0");
+//       return 0;
+//    }
+//    float c = a / b;
+//    printf("%f\n",c);
+//    return c;
+// }
+// int main()
+// {
+//    float a,b;
+//    char d;
+//    printf("Enter the first and second number: ");
+//    scanf("%f %f",&a,&b);
+//    printf("Enter a operator(+ - * /): ");
+//    scanf(" %c",&d);
+//    if (d == '+') 
+//    add(a,b);
+//    else if (d == '-') 
+//    subtract(a,b);
+//    else if(d == '*')
+//    multiplication(a,b);
+//    else if(d == '/') 
+//    division(a,b);
+//    else
+//    printf("Not valid");
+//    return 0;
+// }
+
 int main()
 {
-   float a,b;
-   char d;
-   printf("Enter the first and second number: ");
-   scanf("%f %f",&a,&b);
-   printf("Enter a operator(+ - * /): ");
-   scanf(" %c",&d);
-   if (d == '+') 
-   add(a,b);
-   else if (d == '-') 
-   subtract(a,b);
-   else if(d == '*')
-   multiplication(a,b);
-   else if(d == '/') 
-   division(a,b);
-   else
-   printf("Not valid");
+   printf("Hello");
    return 0;
 }
