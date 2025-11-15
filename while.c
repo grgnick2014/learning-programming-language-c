@@ -1314,6 +1314,9 @@
 
 int main()
 {
-   printf("Hello");
+   int a,b,c;
+   printf("Enter a number: ");
+   scanf("%d",&a);
+   if (a)
    return 0;
 }
