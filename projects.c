@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
+#include<string.h>
 
 // int main()
 // {
@@ -991,8 +992,6 @@
 //     printf("****************************\n");
 //     return 0;
 // }
-// #include <stdio.h>
-// #include <conio.h>
 
 // int main() {
 //     printf("Hello, world!\n");
@@ -1312,11 +1311,91 @@
 //    return 0;
 // }
 
+//addtion of 2 numbers by fun.
+
+// int a,b,c;
+// int add_two_numbers()
+// {
+//    c=a+b;
+// }
+// int main()
+// {
+//    printf("Enter two numbers: ");
+//    scanf("%d %d",&a,&b);
+//    add_two_numbers();
+//    printf("The sum is %d",c);
+//    return 0;
+// }
+
+// int main()
+// {
+//    int a,b=1;
+//    printf("Enter any number: ");
+//    scanf("%d",&a);
+//    printf("The factors of %d is ",a); 
+//    while(b<=a)
+//    {
+//       if(a%b==0)
+//       {  
+//          printf("%d\t",b);
+//       }
+      
+//       b++;
+//    }
+//    return 0;
+// }
+
+// int main()
+// {
+//    int p,r=120,t;
+//    printf("Enter pounds: ");
+//    scanf("%d",&p);
+//    t=p*r;
+//    printf("%d",t);
+//    return 0;
+// }
+
+// program to check either odd, even or prime
+
+// int main()
+// {
+//    int a,b=2,c,d;
+//    printf("Enter a number: ");
+//    scanf("%d",&a);
+//    printf("Enter another number: ");
+//    scanf("%d",&d);
+//    if (a%b==0)
+//    {
+//       printf("Even");
+//    }
+//    else if (a != 1 && a % d != 0 && a != d)
+//    {
+//       printf("Prime");
+//    }
+//    else
+//    {
+//       printf("Odd");
+//    }
+//    return 0;
+// }
+
+//prints computer 11 times
+
+// int main()
+// {
+//    int i;
+//    char s[8]={"computer"};
+//    for(i=0;i<=10;i++)
+//    printf("%s\n",s);
+//    return 0;
+// }
+
 int main()
 {
-   int a,b,c;
-   printf("Enter a number: ");
-   scanf("%d",&a);
-   if (a)
+   int i;
+   printf("Top places to visit in 2025!\n");
+   char s[3][20]={"London","Delhi","Cairo"};
+   for(i=0;i<=3;i++)
+   printf("%s\n",s[i]);
    return 0;
 }
