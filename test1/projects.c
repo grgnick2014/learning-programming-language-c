@@ -4,16 +4,16 @@
 #include<conio.h>
 #include<string.h>
 
-// int main()
-// {
-//    int r,result;
-//    float pi = 3.14;
-//    printf("Enter the radius of a circle: ");
-//    scanf("%d",&r);
-//    result = pi * (r*r);
-//    printf("%d",result);
-// return 0;
-// }
+int main()
+{
+   int r,result;
+   float pi = 3.14;
+   printf("Enter the radius of a circle: ");
+   scanf("%d",&r);
+   result = pi * (r*r);
+   printf("%d",result);
+return 0;
+}
 
 // int main()
 // {
@@ -28,21 +28,9 @@
 // {
 //    printf("The biggest number is %d",b);
 // }
-// else if (c>a && c>b)
+// else 
 // {
 //    printf("The biggest number is %d",c);
-// }
-// else if (a==b || a==c || b==a || b==c || c==a || c==b)
-// {
-//    printf("Two numbers are equal");
-// }
-// else if (a==b && a==c && b==c)
-// {
-//    printf("All numbers are equal");
-// }
-// else
-// {
-//    printf("Error");
 // }
 // return 0;
 // }
@@ -1402,12 +1390,3 @@
 //    return 0;
 // }
 
-// int main()
-// {
-//    int i;
-//    printf("Top places to visit in 2025!\n");
-//    char s[3][20]={"London","Delhi","Cairo"};
-//    for(i=0;i<=3;i++)
-//    printf("%s\n",s[i]);
-//    return 0;
-// }
