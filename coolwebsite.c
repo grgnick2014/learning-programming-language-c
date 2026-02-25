@@ -3,46 +3,6 @@
 #include<conio.h>
 #include<string.h>
 
-// int main()
-// {
-//    int r,result;
-//    float pi = 3.14;
-//    printf("Enter the radius of a circle: ");
-//    scanf("%d",&r);
-//    result = pi * (r*r);
-//    printf("%d",result);
-// return 0;
-// }
-
-// int main()
-// {
-//    int a,b,c;
-//    printf("Enter three numbers: ");
-//    scanf("%d %d %d",&a,&b,&c);
-// if (a>b && a>c)
-// {
-//    printf("The biggest number is %d",a);
-// }
-// else if (b>a && b>c)
-// {
-//    printf("The biggest number is %d",b);
-// }
-// else if (c>a && c>b)
-// {
-//    printf("The biggest number is %d",c);
-// }
-// else if (a==b && a==c && b==c)
-// {
-//    printf("All numbers are equal");
-// }
-// else
-// {
-//    printf("Error");
-//    getch();
-// }
-// return 0;
-// }
-
 int main()
 {
    int a,choice;
@@ -55,9 +15,9 @@ int main()
    getch();
    printf("agSA$Ssg$88&*HFj*\n");
    getch();
-   printf("F1le @ec##ed\n");
+   printf("F1le &ec0&ed\n");
    getch();
-   printf("File decoded, starting loading sequence. Permission to load?Click any key to proceed\n");
+   printf("File decoded, starting loading sequence. Permission to load? Click any key to proceed\n");
    getch();
    printf("Perfect\n");
    printf("File loading........\n");
@@ -80,6 +40,8 @@ int main()
    printf("6.Exit\n");
    printf("Enter which one you would like(number not word): ");
    scanf("%d",&choice);
+   while(1)
+   {
    switch (choice)
    {
    case 1:
@@ -131,7 +93,9 @@ int main()
    case 6:
       exit(0);
    default:
+      printf("Invalid choice!\n");
       break;
+   }
    }
    return 0;
 }

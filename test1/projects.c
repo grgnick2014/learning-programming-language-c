@@ -4,16 +4,16 @@
 #include<conio.h>
 #include<string.h>
 
-int main()
-{
-   int r,result;
-   float pi = 3.14;
-   printf("Enter the radius of a circle: ");
-   scanf("%d",&r);
-   result = pi * (r*r);
-   printf("%d",result);
-return 0;
-}
+// int main()
+// {
+//    int r,result;
+//    float pi = 3.14;
+//    printf("Enter the radius of a circle: ");
+//    scanf("%d",&r);
+//    result = pi * (r*r);
+//    printf("%d",result);
+// return 0;
+// }
 
 // int main()
 // {
@@ -1387,6 +1387,16 @@ return 0;
 //    char s[8]={"computer"};
 //    for(i=0;i<=10;i++)
 //    printf("%s\n",s);
+//    return 0;
+// }
+
+// int main()
+// {
+//    int i;
+//    printf("Top places to visit in 2025!\n");
+//    char s[3][20]={"London","Delhi","Cairo"};
+//    for(i=0;i<=3;i++)
+//    printf("%s\n",s[i]);
 //    return 0;
 // }
 

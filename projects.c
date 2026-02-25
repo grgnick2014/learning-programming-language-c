@@ -3,6 +3,7 @@
 #include<stdlib.h>
 #include<conio.h>
 #include<string.h>
+#include<windows.h>
 
 // int main()
 // {
@@ -43,6 +44,7 @@
 // else
 // {
 //    printf("Error");
+//    getch();
 // }
 // return 0;
 // }
@@ -1411,3 +1413,177 @@
 //    printf("%s\n",s[i]);
 //    return 0;
 // }
+
+// int main()
+// {
+//    int i,j;
+//    for (i = 1; i <=5; i++)
+//    {
+//       for (j = 1; j <=6; j++)
+//       {
+//          if (j<=6-i)
+//          {
+//             printf("1");
+//          }
+//          else if (j<=5-i)
+//          {
+//             printf("2");
+//          }
+//          else if (j<=4-i)
+//          {
+//             printf("3");
+//          }
+//          else if (j<=3-i)
+//          {
+//             printf("4");
+//          }
+//          else if (j<=2-i)
+//          {
+//             printf("5");
+//          }
+//          else
+//          {
+//             printf(" ");
+//          }
+//       }printf("\n");
+//    }
+
+//    return 0;
+// }
+
+// int main()
+// {
+//    int a;
+//    printf("Enter time: ");
+//    scanf("%d",&a);
+//    while (a>=0)
+//    {
+//       printf("%d...\n",a);
+//       a--;
+//       Sleep(1000);
+//    }
+//    printf("Time is up");
+//    return 0;
+// }
+
+// int main()
+// {
+//    int i,j;
+//    for (i = 1; i <= 3; i++)
+//    {
+//       for (j = 1; j <= 5; j++)
+//       {
+//          if (j<=-2+i)
+//          {
+//             printf("*");
+            
+//          }
+//          else
+//          {
+//             printf(" ");
+//          }
+         
+//       }printf("\n");
+      
+//    }
+   
+// }
+
+
+// int main()
+// {
+//    int i;
+//    for (i = 1; i<=10; i++)
+//    {
+//       if (i%2==0)
+//       {
+//          printf(" ");
+//       }
+//       else
+//       {
+//          printf("%d",i);
+//       }
+//    }
+   
+//    return 0;
+// }
+
+// int main()
+// {
+//    int i,j,a;
+//    printf("Enter a number: ");
+//    scanf("%d",&i);
+//    j=i%2;
+//    printf("The remainder is %d\n",j);
+//    a=i/2;
+//    printf("The quotient is %d",a);
+//    return 0;
+// }
+
+// int main()
+// {
+//    int i;
+//    int a[6];
+//    for (i = 1; i < 5; i++)
+//    {
+//       a[i]=i+3;
+//       printf("%d ",a[i]);
+//    }
+//    return 0;
+// }
+
+// int main()
+// {
+//    int f,c,h,t;
+//    printf("Enter first hour price, cost price, rest of hours: ");
+//    scanf("%d %d %d",&f,&c,&h);
+//    t=f+c*h;
+//    printf("%d",t);
+//    return 0;
+// }
+
+// int main()
+// {
+//    int a=5;
+//    int *b=&a;
+//    printf("%p",b);
+//    return 0;
+// }
+
+// int main()
+// {
+//    int a,b,c;
+//    int *x=&a,*y=&b,*z=&c;
+//    printf("%p %p %p",a,b,c);
+//    return 0;
+// }
+
+// int main()
+// {
+//    int x = 5 ,*p,**z,***y;
+//    x=&p;
+//    *p=&z;
+//    *z=&y;
+//    printf("%d %d %d %d",p,*z,&x);
+//    return 0;
+// }
+
+// int swap(int, int);
+// int main()
+// {
+//    int a,b;
+//    printf("Enter two numbers: ");
+//    scanf("%d %d",&a,&b);
+//    swap(a, b);
+//    printf("%d %d",a,b);
+//    return 0;
+// }
+
+// int swap(int x, int y)
+// {
+//    int z;
+//    z=x;
+//    x=y;
+//    y=x;
+// }
+
