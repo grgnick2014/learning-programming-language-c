@@ -1587,3 +1587,26 @@
 //    y=x;
 // }
 
+// int main()
+// {
+//    int a,b;
+//    printf("Enter a number: ");
+//    scanf("%d",&a);
+//    b = a*a*a;
+//    printf("The cube of %d is %d",a,b);
+//    return 0;
+// }
+
+int main()
+{
+   int a=1,b=1,c;
+   while (a<=100)
+   {
+      c=b*b;
+      printf("%d\n",c);
+      b++;
+      a++;
+   }
+   
+   return 0;
+}
